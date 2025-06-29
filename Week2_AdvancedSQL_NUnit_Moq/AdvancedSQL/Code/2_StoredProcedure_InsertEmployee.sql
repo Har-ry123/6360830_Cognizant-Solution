@@ -11,7 +11,7 @@ BEGIN
 END;
 
 EXEC sp_InsertEmployee 
-    @FirstName = 'Debojyoti',
+    @FirstName = 'Hariom',
     @LastName = 'Jha',
     @DepartmentID = 3,
     @Salary = 8500.00,
