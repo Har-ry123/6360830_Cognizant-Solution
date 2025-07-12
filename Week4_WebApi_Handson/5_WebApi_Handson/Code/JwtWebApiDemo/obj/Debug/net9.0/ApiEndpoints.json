@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "JwtWebApiDemo.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "auth/token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtWebApiDemo.Controllers.EmployeeController",
+    "Method": "GetEmployees",
+    "RelativePath": "Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
