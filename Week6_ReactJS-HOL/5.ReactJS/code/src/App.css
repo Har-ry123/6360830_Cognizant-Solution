@@ -1,0 +1,36 @@
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.cohort-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cohort-details-container h2 {
+  color: #333;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cohort-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cohort-cards {
+    justify-content: center;
+  }
+}
